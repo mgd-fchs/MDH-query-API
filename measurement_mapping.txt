@@ -1,0 +1,67 @@
+iOs:
+        "active_calories": "TotalEnergyBurned",
+        "active_calories_daily": "TotalEnergyBurned",  # no daily variant
+        "blood_glucose": "BloodGlucose",
+        "blood_pressure_sys": None,  # not available in current list
+        "blood_pressure_dia": None,  # not available in current list
+        "body_temp": "Temperature",
+        "distance": "DistanceWalkingRunning",
+        "distance_daily": "TotalDistance",
+        "exercise_segments": "WorkoutEvent",
+        "exercise_lat": "WorkoutEvent",
+        "exercise_lon": "WorkoutEvent",
+        "exercise_alt": "WorkoutEvent",
+        "exercise_hacc": "WorkoutEvent",
+        "exercise_vacc": "WorkoutEvent",
+        "exercise_laps": "WorkoutEvent",
+        "exercise_time": "AppleExerciseTime",
+        "heart_rate": "HeartRate",
+        "heart_rate_min": None,  # no matching AppleHealth type
+        "heart_rate_max": None,  # no matching AppleHealth type
+        "hrv": "HeartRateVariability",
+        "oxygen_saturation": None,  # not enabled
+        "respiratory_rate": "RespiratoryRate",
+        "resting_hr": "RestingHeartRate",
+        "sleep": "SleepAnalysisInterval",
+        "steps": "Steps",
+        "steps_daily": "DailySteps",
+        "steps_hourly": "HourlySteps",
+        "steps_half_hourly": "HalfHourSteps",
+        "total_calories": "TotalEnergyBurned",
+        "total_calories_daily": "TotalEnergyBurned",
+        "vo2_max": None,  # not enabled
+        "weight": None  # not enabled
+
+Android:
+        "active_calories": "active-calories-burned",
+        "active_calories_daily": "active-calories-burned-daily",
+        "blood_glucose": "blood-glucose",
+        "blood_pressure_sys": "blood-pressure-systolic",
+        "blood_pressure_dia": "blood-pressure-diastolic",
+        "body_temp": "body-temperature",
+        "distance": "distance",
+        "distance_daily": "distance-daily",
+        "exercise_segments": "exercise-segments",
+        "exercise_lat": "exercise-route-latitude",
+        "exercise_lon": "exercise-route-longitude",
+        "exercise_alt": "exercise-route-altitude",
+        "exercise_hacc": "exercise-route-horizontalAccuracy",
+        "exercise_vacc": "exercise-route-verticalAccuracy",
+        "exercise_laps": "exercise-laps",
+        "exercise_time": None,
+        "heart_rate": "heart-rate",
+        "heart_rate_min": "heart-rate-daily-minimum",
+        "heart_rate_max": "heart-rate-daily-maximum",
+        "hrv": None,
+        "oxygen_saturation": "oxygen-saturation",
+        "respiratory_rate": "respiratory-rate",
+        "resting_hr": "resting-heart-rate",
+        "sleep": "sleep",
+        "steps": "steps",
+        "steps_daily": "steps-daily",
+        "steps_hourly": "steps-hourly",
+        "steps_half_hourly": "steps-half-hourly",
+        "total_calories": "total-calories-burned",
+        "total_calories_daily": "total-calories-burned-daily",
+        "vo2_max": "vo2-max",
+        "weight": "weight
